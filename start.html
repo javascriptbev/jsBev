@@ -160,6 +160,13 @@
                     }
                     strInitFun = strInitFun + "}\n";
 
+                    var strVar = "var map";
+                    for (var i = 0; i < strBaseLayers.length; i++) {
+                        strVar = strVar + ", " + "layer" + i;
+                    }
+                    strVar = strVar + ";";
+                    strInitFun = strVar + strInitFun;
+
                     var strLayer;
                     if (strBaseLayers.length == 1) {
                         strLayer = "map.addLayer(layer0);\n"
