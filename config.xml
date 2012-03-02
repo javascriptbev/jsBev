@@ -1,7 +1,7 @@
 <config>	
-	<map LonLat="5105 , -3375" Zoom="4">  
+	<map LonLat="0 , 0" Zoom="2">  
         <BaseLayers>           
-          <layer name="iServer" type="tiled" url="http://localhost:8090/iserver/services/map-changchun/rest/maps/长春市区图" />
+          <layer name="cloud" type="cloud" />
         </BaseLayers>
         <Overlaps />
 		    
