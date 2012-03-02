@@ -1,0 +1,22 @@
+<config>	
+	<map LonLat="5105 , -3375" Zoom="4">  
+        <BaseLayers>           
+          <layer name="iServer" type="tiled" url="http://localhost:8090/iserver/services/map-changchun/rest/maps/长春市区图" />
+        </BaseLayers>
+        <Overlaps />
+		    
+        <Controls>
+			    <ScaleLine />
+			    <PanZoom />
+			    <Navigation />
+          <LayerSwitcher />
+		    </Controls>
+	</map>
+	
+	<layout>
+		<title>Javascript BEV 1.0</title>
+
+    <panel id="layer" />
+    
+	</layout>
+</config>
