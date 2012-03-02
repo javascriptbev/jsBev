@@ -1,0 +1,2 @@
+SuperMap JavaScript Bev定位于快速开发地图静态页面，依靠SuperMap Javascript脚本，通过xml配置文件生成地图页面和GIS功能，满足用户的地图需求，具有快速开发，简化开发难度的特点。
+使用方式：用户发布该服务，Windows平台的IIS，需要支持静态页面和ASP服务，浏览start.html页面，点击生成按钮，则自动生成index.html首页，该首页集成了地图展现和基本的地图服务。
